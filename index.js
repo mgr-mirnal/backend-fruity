@@ -17,9 +17,9 @@ app.use(express.json())
 //create route
 //[server].[method]('<>', callback)
 // req(request)/res(response)
-app.get('/'),(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("Hello!")
-}
+})
 app.get('/home',(req, res)=>{
     res.send('Hello, Fruity!')
 })
